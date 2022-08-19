@@ -1,0 +1,19 @@
+{
+  "name": "code-email",
+  "version": "1.0.0",
+  "description": "",
+  "main": "editor.js",
+  "scripts": {
+    "dev": "esbuild index.js --watch --bundle --outfile=bundle.js",
+    "build": "esbuild index.js --bundle --outfile=bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@codemirror/lang-javascript": "^6.0.2",
+    "codemirror": "^6.0.1",
+    "esbuild": "^0.15.5"
+  }
+}
